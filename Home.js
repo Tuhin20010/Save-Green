@@ -1,6 +1,6 @@
-const  createNav = () =>  {
-    let Nav = document.querySelector('.nav');
-    Nav.innerHTML = `
+const createNav = () => {
+  let Nav = document.querySelector('.nav');
+  Nav.innerHTML = `
     <div class="nav">
     <marquee behavior="" direction="rights">Please join us to save environment </marquee>
     <header>
@@ -23,8 +23,8 @@ const  createNav = () =>  {
 
     `;
 }
-createNav ();
-const  createfooter = () =>  {
+createNav();
+const createfooter = () => {
   let footer = document.querySelector('.footer');
   footer.innerHTML = `
   <div class="footer">
@@ -33,15 +33,15 @@ const  createfooter = () =>  {
     <p>&copy; 2023 Ever Green Foundation . All rights reserved.</p>
     <p>| Privacy Policy | Terms of Service |</p> 
     <p>Visit us on social plartform</p>
-    <img id="about" src="../facebook.png" alt="">
-    <img id="about" src="../tweeter.png" alt="">
-    <img id="about" src="../facebook.png" alt=""> <br>
-    Designed and developed by <a href="../ABC.html">ABC developer</a>
+    <img id="about" src="Images/facebook.png" alt="">
+    <img id="about" src="Images/tweeter.png" alt="">
+    <img id="about" src="Images/snap chat.jfif" alt=""> <br>
+    Designed and developed by <a href="">ABC developer</a>
    </center>
 
 </div>
 
   `;
 }
-createfooter ();
+createfooter();
 
