@@ -1,0 +1,25 @@
+.header{
+    text-align: center;
+}
+.services{
+    display: flex;
+}
+.types{
+    text-align: center;
+    /* border: 2px solid white; */
+    height: 220px;
+    width: 250px;
+    margin: 10px 70px 10px 70px;
+    background-color: rgba(44, 40, 40, 0.753);
+}
+.types:hover{
+    background-color: rgba(31, 32, 32, 0.952);
+}
+.type,h2{
+    margin: 50px ;
+    color: azure;
+}
+h2:hover{
+    font-size: larger;
+    color: antiquewhite;
+}

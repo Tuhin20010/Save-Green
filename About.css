@@ -1,0 +1,51 @@
+main {
+    padding: 20px;
+    margin: 0 100px 0 50px;
+}
+
+/* .team {
+      margin-bottom: 30px;
+  }
+
+  h2 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+  }
+
+  .team-member {
+      text-align: center;
+  }
+
+  .team-member img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+  } */
+.team-member {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin: 0 10px 0 10px;
+}
+
+.team-member img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.team::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.team {
+    display: flex;
+}
+
+.team-member {
+    flex: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
